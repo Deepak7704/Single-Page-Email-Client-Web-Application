@@ -1,0 +1,38 @@
+textarea {
+    min-height: 400px;
+}
+.read{
+    background-color:rgb(177, 202, 242)
+}
+.unread{
+    background-color:white
+}
+.items{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0; 
+}
+.email-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.email-sender {
+    flex-grow: 0;
+    margin-right: 50px;
+}
+
+.email-subject {
+    flex-grow: 1;
+    margin-right: 10px; 
+}
+
+.email-timestamp {
+    white-space: nowrap;
+    flex-grow: 0;
+    margin-left: auto;
+}
+
+
